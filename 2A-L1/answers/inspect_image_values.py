@@ -2,7 +2,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Inspect image values
-img = cv2.imread("images/dolphin.png")
+img = cv2.imread("../images/dolphin.png")
 cv2.imshow('Dolphin', img)
 print(img.shape)
 
