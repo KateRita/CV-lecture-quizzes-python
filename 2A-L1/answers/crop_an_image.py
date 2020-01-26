@@ -1,7 +1,7 @@
 import cv2
 
 # Crop an image
-img = cv2.imread('images/bicycle.png');
+img = cv2.imread('../images/bicycle.png');
 cv2.imshow('Bicycle', img);
 
 
